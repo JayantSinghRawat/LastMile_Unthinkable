@@ -1,5 +1,5 @@
-import Zone from '../models/Zone';
-import RateCard from '../models/RateCard';
+import Zone from '../models/Zone.js';
+import RateCard from '../models/RateCard.js';
 
 interface CalculationInput {
   pickupAddress: string;

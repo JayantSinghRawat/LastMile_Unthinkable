@@ -1,8 +1,8 @@
 import { Router, Response } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import User from '../models/User';
-import { AuthRequest, authenticate } from '../middleware/auth';
+import User from '../models/User.js';
+import { AuthRequest, authenticate } from '../middleware/auth.js';
 
 const router = Router();
 const JWT_SECRET = process.env.JWT_SECRET || 'supersecretlastmilekey123';
